@@ -1,26 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" role="main">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | QR code component</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
-  
-  
+
+
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-    *{
-      margin: 0;
-      padding:0;
+    .attribution {
+      font-size: 11px;
+      text-align: center;
     }
-    .body_container{
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    main {
       background-color: hsl(212, 45%, 89%);
       height: 100vh;
       width: 100vw;
@@ -29,7 +39,7 @@
       align-items: center;
     }
 
-    .outer_box{
+    .outer_box {
       background-color: hsl(0, 0%, 100%);
       height: 530px;
       width: 350px;
@@ -41,7 +51,7 @@
       box-shadow: 16px 25px 30px rgb(119, 119, 119);
     }
 
-    #qr_image{
+    #qr_image {
       height: 300px;
       width: 310px;
       margin-top: 20px;
@@ -49,14 +59,14 @@
       border-radius: 10px;
     }
 
-    .outer_box h1{
+    .outer_box h1 {
       margin: 20px 30px;
       text-align: center;
       font-family: 'Rubik', sans-serif;
       font-size: large;
     }
 
-    .outer_box p{
+    .outer_box p {
       margin: 30px 30px;
       text-align: center;
       color: rgb(78, 78, 78);
@@ -65,20 +75,25 @@
     }
   </style>
 </head>
+
 <body>
   <header></header>
 
   <main>
-    <div class="body_container" role="main">
+   
       <div class="outer_box" role="article">
         <img src="images/image-qr-code.png" alt="" id="qr_image" role="img">
-        
         <h1 role="heading">Improve your front-end skills by building project</h1>
         <p role="text"> Scan the qr code to visit frontend mentor and take your skills to the next level</p>
       </div>
-    </div>
+    
   </main>
 
   <footer></footer>
 </body>
+
 </html>
+
+
+
+
